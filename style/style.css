@@ -1,0 +1,26 @@
+/* Header styles */
+.banner{
+
+    text-align: center;
+    background-image: url('../res/Banner\ Image.png');
+    background-repeat: no-repeat;
+    width: 380px;
+    margin: 20px auto;
+    padding:175px 470px ;
+
+}
+.header1Bold{
+    color:black;
+    font-size: xxx-large;
+}
+.header4Bold{
+    color: black;
+    font-size: xx-large;
+}
+/* main styles */
+.sec1{
+    
+}
+.sec1Container{
+
+}
