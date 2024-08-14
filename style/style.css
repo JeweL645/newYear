@@ -67,7 +67,10 @@
     font-size: xx-large;
 }
 /* main styles */
-
+.sec1{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
 .sec1Container{
     text-align: center;
 
@@ -88,11 +91,50 @@
 /* sec2 stye starts here */
 .sec2BigHeading{
     color: white;
+    font-size: 55px;
 }
 .sec2btn{
+    border: 0;
+    border-radius: 10px;
     padding: 5px 30px;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 15px;
     color: white;
     background-color: black;
+}
+.sec2{
+    background-image: url('../res/Vectorrr.png');
+    background-repeat: no-repeat;
+}
+.sec2Container{
+
+    text-align: center;
+    width: 450px;
+    padding-top: 91px;
+    padding-left: 130px; 
+    padding-bottom:145px;  
+}
+.sec2Description{
+    color: white;
+}
+/* sec3 styles start here */
+.sec3btn{
+    border: 0;
+    border-radius: 10px;
+    padding: 5px 30px;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    background-color:red;
+}
+.sec3h3{
+    font-weight: 600;
+    font-size: 19px;
+
+}
+.redSpan{
+    color: red;
+}
+.sec3Container{
+    
 }
