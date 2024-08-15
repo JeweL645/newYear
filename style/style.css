@@ -245,5 +245,78 @@
 }
 .roundImage{
     padding-bottom: 220px;
+
+}
+/* sec6 styles starts here */
+.sec6{
+  
+}
+.sec6Container{
+    margin: 15px auto;
+}
+
+.sec7container{
+    padding: 30px;
+    text-align: center;
+    margin: 20px 40px;
+}
+.inputField{
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    padding-left: 125px;
+    border-radius: 20px 0 0 20px;
+    border: 0;
+}
+.btnField{
+    border: 0;
+    font-weight: 600;
+    font-size: 13px;
+    color: white;
+    background-color: red;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    padding-right: 125px;
+    border-radius: 0 20px 20px 0;
+}
+
+.sec7{
+    background-color: bisque;
+}
+
+footer{
+    background-color: #070211;
+    padding: 0 30px;
+}
+.footDiv{
+    color: white;
+    padding: 0 150px;
     
+}
+.footDiv{
+    display: flex;
+    gap:500px;
+}
+.hrLine{
+    border: 1px solid white;
+}
+.footDiv2{
+    padding: 0 500px;
+}
+.lastBtn{
+    background-color: #070211;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    padding: 15px 30px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.footP{
+
+    color: white;
+}
+.footDiv3{
+    padding: 0 120px;
+    display: flex;
+    gap: 700px
 }
