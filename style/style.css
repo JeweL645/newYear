@@ -3,97 +3,106 @@
     font-family: "Ubuntu", sans-serif;
     font-weight: 300;
     font-style: normal;
-  }
+}
 
-  .ubuntu-regular {
+.ubuntu-regular {
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
-  .ubuntu-medium {
+.ubuntu-medium {
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
     font-style: normal;
-  }
+}
 
-  .ubuntu-bold{
+.ubuntu-bold {
 
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
     font-style: normal;
-  }
+}
 
-  .ubuntu-light-italic {
+.ubuntu-light-italic {
     font-family: "Ubuntu", sans-serif;
     font-weight: 300;
     font-style: italic;
-  }
+}
 
-  .ubuntu-regular-italic {
+.ubuntu-regular-italic {
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     font-style: italic;
-  }
+}
 
-  .ubuntu-medium-italic {
+.ubuntu-medium-italic {
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
     font-style: italic;
-  }
+}
 
-  .ubuntu-bold-italic {
+.ubuntu-bold-italic {
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
     font-style: italic;
-  }
+}
 
 
-.banner{
+.banner {
     text-align: center;
     background-image: url('../res/Banner\ Image.png');
     background-repeat: no-repeat;
     width: 380px;
     margin: 20px auto;
-    padding:175px 470px ;
+    padding: 175px 470px;
 
 }
-.header1Bold{
-    color:black;
+
+.header1Bold {
+    color: black;
     font-size: xxx-large;
 }
-.header4Bold{
+
+.header4Bold {
     color: black;
     font-size: xx-large;
 }
+
 /* main styles */
-.sec1{
+.sec1 {
     margin-top: 80px;
     margin-bottom: 100px;
 }
-.sec1Container{
+
+.sec1Container {
     text-align: center;
 
 }
-.sec1BigHeading{
+
+.sec1BigHeading {
     color: red;
     font-size: 70px;
 }
-.sec1MidiumHeading{
+
+.sec1MidiumHeading {
     color: red;
     font-weight: 500;
     font-size: 21px;
 }
-.sec1h2Heading{
+
+.sec1h2Heading {
     font-size: 45px;
     font-weight: 600;
 }
+
 /* sec2 stye starts here */
-.sec2BigHeading{
+.sec2BigHeading {
     color: white;
     font-size: 55px;
 }
-.sec2btn{
+
+.sec2btn {
     border: 0;
     border-radius: 10px;
     padding: 5px 30px;
@@ -102,41 +111,48 @@
     color: white;
     background-color: black;
 }
-.sec2{
+
+.sec2 {
     background-image: url('../res/Vectorrr.png');
     background-repeat: no-repeat;
     background-position: center;
 
 }
-.sec2Container{
+
+.sec2Container {
     text-align: center;
     width: 450px;
     padding-top: 91px;
-    padding-left: 130px; 
-    padding-bottom:145px;  
+    padding-left: 130px;
+    padding-bottom: 145px;
 }
-.sec2Description{
+
+.sec2Description {
     color: white;
 }
+
 /* sec3 styles start here */
-.sec3btn{
+.sec3btn {
     border: 0;
     border-radius: 10px;
     padding: 10px 30px;
     font-weight: 600;
     font-size: 20px;
     color: white;
-    background-color:red;
+    background-color: red;
 }
-.sec3h3{
+
+.sec3h3 {
     font-weight: 600;
     font-size: 30px;
 
 }
-.redSpan{
+
+.redSpan {
     color: red;
 }
-.sec3Container{
+
+.sec3Container {
     padding-top: 130px;
     padding-bottom: 130px;
     text-align: center;
@@ -144,51 +160,90 @@
     height: 300px;
     background-color: rgba(243, 124, 124, 0.459);
 }
+
 /* sec4 style starts here */
-.circlePhoto{
+.circlePhoto {
     padding: 25px;
     border: 15px solid red;
     border-radius: 500px;
 }
-.sec4h4childDiv1{
+
+.sec4h4childDiv1 {
     color: red;
     font-weight: 500;
     font-size: 21px;
 }
-.sec4h2childDiv1{
+
+.sec4h2childDiv1 {
     font-weight: 800;
     font-size: 38px;
 }
-.sec4PchildDiv1{
+
+.sec4PchildDiv1 {
     font-size: 17px;
     font-weight: 400;
 }
-.sec4h2childDiv3{
+
+.sec4h2childDiv3 {
     color: red;
     font-weight: 800;
     font-size: 38px;
 }
-.sec4PchildDiv3{
+
+.sec4PchildDiv3 {
     font-size: 17px;
     font-weight: 400;
 }
-.sec4Container{
+
+.sec4Container {
     text-align: center;
     display: flex;
 }
-.child1{
+
+.child1 {
     padding-left: 100px;
-   text-align: left;
-   width: 250px;
-   padding-right: 80px;
+    text-align: left;
+    width: 250px;
+    padding-right: 80px;
 }
-.child2{
+
+.child2 {
     padding-right: 80px;
 
 }
-.child3{
+
+.child3 {
     width: 250px;
 }
-.sec4{
+
+.sec4 {
     margin: 50px auto;
+}
+
+/* sec5 styles starts here */
+
+.sec5childDiv1{
+
+
+}
+.sec5childDiv1h4{
+    font-size: 17px;
+    font-weight: 500;
+}
+.sec5childDiv1h1{
+    color: black;
+    font-size: xxx-large;
+
+}
+.sec5childDiv1{
+    text-align: center;
+}
+.sec5childDiv2{
+    background-image: url('../res/Rectangle\ 2.png'), url('../res/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: 50% 100%, 100% 0%;
+}
+.roundImage{
+    padding-bottom: 220px;
+    
 }
